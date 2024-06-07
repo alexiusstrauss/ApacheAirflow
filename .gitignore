@@ -154,9 +154,11 @@ cython_debug/
 .idea/
 
 #Apache Airflow logs
-dags/*
-!dags/__init__.py
+# dags/*
+# !dags/__init__.py
 
 tests/*
 !tests/__init__.py
 
+
+carga-diaria.sqlite
